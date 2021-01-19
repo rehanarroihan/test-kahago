@@ -10,7 +10,7 @@
     android:layout_height="match_parent">
 
     <com.google.android.material.tabs.TabLayout
-        android:id="@+id/tabPoint"
+        android:id="@+id/tabAuth"
         android:layout_height="wrap_content"
         app:tabMode="scrollable"
         app:tabTextAppearance="@style/MyCustomTextAppearance"
@@ -71,12 +71,13 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="30dp"
             app:boxBackgroundColor="@color/white"
-            android:background="#FFFFFF"
+            android:background="@color/white"
             android:hint="@string/email_input_placeholder">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"/>
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -91,7 +92,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingBottom="11dp"/>
+                android:inputType="textPassword"/>
 
         </com.google.android.material.textfield.TextInputLayout>
 
