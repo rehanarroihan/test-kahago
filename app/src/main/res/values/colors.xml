@@ -15,4 +15,6 @@
     <color name="redColor">#ED1C24</color>
     <color name="darkGreyColor">#737580</color>
     <color name="lightGreyColor">#B0B2BF</color>
+
+    <color name="lineDividerColor">#EAEDF1</color>
 </resources>
